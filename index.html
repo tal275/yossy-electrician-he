@@ -1,0 +1,266 @@
+<!DOCTYPE html>
+<html lang="he" dir="rtl">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>יוסי החשמלאי – חשמלאי מוסמך באזור השרון | 050-5346012</title>
+<meta name="description" content="יוסי החשמלאי – חשמלאי מוסמך עם מעל 30 שנות ניסיון. הגעה תוך 30 דקות, זמינות 24/7, אחריות 3 שנים. כפר סבא, נתניה, רעננה, הרצליה, הוד השרון ועוד.">
+<link rel="canonical" href="https://www.yossy-electrician.com/">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Heebo:wght@400;500;700;900&display=swap" rel="stylesheet">
+<script type="application/ld+json">
+{"@context":"https://schema.org","@type":"Electrician","name":"יוסי החשמלאי","telephone":"+972505346012","email":"electrician.0505346012@gmail.com","url":"https://www.yossy-electrician.com/","areaServed":["חדרה","נתניה","הוד השרון","כפר סבא","רעננה","רמת השרון","הרצליה","תל מונד","אבן יהודה","כפר יונה"],"openingHours":"Mo-Su 00:00-23:59"}
+</script>
+<style>
+:root{
+  --ink:#1c2630; --ink-2:#2b3946; --paper:#f2f4f5; --white:#fff;
+  --volt:#ffc400; --copper:#a8501f; --muted:#5b6872; --line:#d5dbdf;
+}
+@media (prefers-color-scheme: dark){
+  :root{--paper:#161d24; --white:#1f2932; --ink:#eef1f3; --ink-2:#c9d1d7; --muted:#9aa7b1; --line:#34424e; --copper:#e08a56;}
+}
+*{box-sizing:border-box}
+html{scroll-behavior:smooth}
+body{margin:0;font-family:Heebo,Arial,sans-serif;background:var(--paper);color:var(--ink);line-height:1.7;font-size:18px}
+a{color:inherit}
+:focus-visible{outline:3px solid var(--volt);outline-offset:3px}
+.wrap{max-width:1040px;margin:0 auto;padding:0 20px}
+
+/* top bar */
+.top{background:#1c2630;color:#fff;font-size:15px}
+.top .wrap{display:flex;justify-content:space-between;gap:12px;padding-block:8px;flex-wrap:wrap}
+.top a{color:var(--volt);text-decoration:none;font-weight:500}
+.top a:hover{text-decoration:underline}
+
+/* hero */
+.hero{background:#1c2630;color:#fff;padding:56px 0 0;position:relative;overflow:hidden}
+.hero h1{margin:0 0 8px;font-size:clamp(40px,8vw,84px);line-height:1.02;font-weight:900;letter-spacing:-.02em}
+.hero p.sub{margin:0 0 28px;font-size:clamp(18px,2.6vw,24px);color:#c9d3da;max-width:34ch}
+.call{display:inline-flex;align-items:center;gap:14px;background:var(--volt);color:#1c2630;text-decoration:none;font-weight:900;font-size:clamp(20px,3.4vw,30px);padding:14px 26px;border-radius:6px}
+.call small{display:block;font-size:14px;font-weight:500;line-height:1.2}
+.call:hover{background:#ffd23d}
+.wa{display:inline-block;margin-inline-start:12px;color:#fff;font-weight:500}
+.stats{display:flex;flex-wrap:wrap;margin-top:44px;border-top:1px solid #33424f}
+.stats div{flex:1 1 200px;padding:18px 0;padding-inline-end:20px}
+.stats b{display:block;font-size:28px;color:var(--volt);font-weight:900;line-height:1.2}
+.stats span{color:#c9d3da;font-size:15px}
+/* breaker-line motif */
+.rail{height:14px;background:repeating-linear-gradient(-45deg,var(--volt) 0 14px,#1c2630 14px 28px)}
+
+section{padding:64px 0}
+h2{font-size:clamp(28px,4.4vw,40px);line-height:1.2;margin:0 0 24px;font-weight:900}
+.lead{max-width:60ch;color:var(--ink-2)}
+
+/* promo */
+.promo{background:var(--volt);color:#1c2630;text-align:center;font-weight:700;padding:12px 20px}
+
+/* services */
+.services{display:grid;grid-template-columns:repeat(auto-fit,minmax(260px,1fr));gap:0;border:1px solid var(--line);background:var(--white)}
+.services div{padding:22px 24px;border:1px solid var(--line);margin:-.5px}
+.services h3{margin:0 0 4px;font-size:20px}
+.services p{margin:0;color:var(--muted);font-size:16px;line-height:1.5}
+
+/* why */
+.why{background:var(--white);border-block:1px solid var(--line)}
+.whygrid{display:grid;grid-template-columns:repeat(auto-fit,minmax(180px,1fr));gap:28px}
+.whygrid h3{margin:0 0 4px;font-size:20px;border-inline-start:4px solid var(--volt);padding-inline-start:12px}
+.whygrid p{margin:0;color:var(--muted);font-size:16px;line-height:1.5;padding-inline-start:16px}
+
+/* license */
+.license{display:grid;grid-template-columns:1.2fr 1fr;gap:32px;align-items:center}
+.license ul{padding-inline-start:20px}
+.license li{margin-bottom:6px}
+.warn{background:#1c2630;color:#fff;padding:24px;border-radius:6px;border-inline-start:8px solid var(--volt)}
+.warn strong{color:var(--volt);font-size:22px;display:block;margin-bottom:6px}
+@media(max-width:720px){.license{grid-template-columns:1fr}}
+
+/* reviews */
+.reviews{display:grid;grid-template-columns:repeat(auto-fit,minmax(280px,1fr));gap:20px}
+blockquote{margin:0;background:var(--white);border:1px solid var(--line);padding:22px;border-radius:6px}
+blockquote p{margin:0 0 12px;font-size:17px}
+blockquote footer{font-weight:700;color:var(--copper);font-size:16px}
+
+/* areas */
+.areas{display:flex;flex-wrap:wrap;gap:10px;padding:0;margin:0;list-style:none}
+.areas li{background:var(--white);border:1px solid var(--line);padding:6px 16px;border-radius:99px;font-weight:500}
+
+/* faq */
+details{background:var(--white);border:1px solid var(--line);border-radius:6px;margin-bottom:10px}
+summary{cursor:pointer;padding:16px 20px;font-weight:700;list-style:none;display:flex;justify-content:space-between;gap:12px}
+summary::after{content:"+";font-size:24px;line-height:1;color:var(--copper)}
+details[open] summary::after{content:"–"}
+summary::-webkit-details-marker{display:none}
+details p{margin:0;padding:0 20px 18px;color:var(--ink-2)}
+
+/* contact */
+.contact{background:#1c2630;color:#fff}
+.contact h2{color:#fff}
+.contact a.mail{color:var(--volt)}
+.contact .big{font-size:clamp(34px,7vw,64px);font-weight:900;color:var(--volt);text-decoration:none;display:block;line-height:1.1;margin:8px 0 12px;direction:ltr;text-align:right}
+.orig{display:inline-block;margin-top:24px;border:2px solid var(--volt);color:var(--volt);padding:10px 20px;border-radius:6px;text-decoration:none;font-weight:700}
+.orig:hover{background:var(--volt);color:#1c2630}
+footer.site{background:#10171d;color:#9aa7b1;font-size:14px;padding:18px 0;text-align:center}
+footer.site a{color:#c9d3da}
+
+/* sticky mobile call */
+.sticky{display:none}
+@media(max-width:720px){
+  body{padding-bottom:64px}
+  .sticky{display:block;position:fixed;inset:auto 0 0 0;background:var(--volt);color:#1c2630;text-align:center;font-weight:900;font-size:20px;padding:16px;text-decoration:none;z-index:10}
+}
+@media (prefers-reduced-motion: reduce){html{scroll-behavior:auto}}
+</style>
+</head>
+<body>
+
+<div class="top">
+  <div class="wrap">
+    <span>חשמלאי מוסמך · זמין 24/7</span>
+    <a href="https://www.yossy-electrician.com/" target="_blank" rel="noopener">לאתר המלא של יוסי החשמלאי</a>
+  </div>
+</div>
+
+<header class="hero">
+  <div class="wrap">
+    <h1>יוסי החשמלאי</h1>
+    <p class="sub">חשמלאי מוסמך. שירות מקצועי ואמין בכל אזור השרון.</p>
+    <a class="call" href="tel:0505346012">
+      <span>
+        <small>צלצלו עכשיו – הגעה תוך 30 דקות</small>
+        <span dir="ltr">050-5346012</span>
+      </span>
+    </a>
+    <a class="wa" href="https://wa.me/972505346012" target="_blank" rel="noopener">או שלחו הודעה בוואטסאפ</a>
+    <div class="stats">
+      <div><b>30+</b><span>שנות ניסיון</span></div>
+      <div><b>3,700+</b><span>לקוחות מרוצים</span></div>
+      <div><b>3 שנות</b><span>אחריות על עבודה וחלקים</span></div>
+      <div><b>24/7</b><span>כולל שבתות וחגים</span></div>
+    </div>
+  </div>
+  <div class="rail" style="margin-top:44px"></div>
+</header>
+
+<div class="promo">בדיקת הארקה חינם למצלצלים כעת</div>
+
+<section id="services">
+  <div class="wrap">
+    <h2>עבודות חשמל</h2>
+    <div class="services">
+      <div><h3>החלפת לוח חשמל</h3><p>לוח וארון חשמל, כולל לוח תלת פאזי.</p></div>
+      <div><h3>תלת פאזי</h3><p>חיבור, הגדלה והתקנת שקע תלת פאזי.</p></div>
+      <div><h3>נקודות ושקעי חשמל</h3><p>התקנה, הזזה והחלפה של נקודות, שקעים ומפסקים.</p></div>
+      <div><h3>תיקון ואיתור קצרים</h3><p>הפסקת חשמל חלקית, קצר חשמלי, ממסר פחת קופץ והחלפת פחת.</p></div>
+      <div><h3>בדיקת הארקה</h3><p>בדיקת תקינות וטיב ההארקה, וחיבור הארקה לצנרת המים.</p></div>
+      <div><h3>ביקורת חברת החשמל</h3><p>הכנה לביקורת והעברתה בהצלחה.</p></div>
+      <div><h3>דוד שמש</h3><p>תיקון דוד, החלפת גוף חימום ופלאנג, התקנת טיימר.</p></div>
+      <div><h3>תאורה ומאווררים</h3><p>גופי תאורה, מנורות ומאוורר תקרה, גם לפרגולה.</p></div>
+      <div><h3>שעון שבת ומונה</h3><p>התקנת שעון שבת ומונה חשמל.</p></div>
+    </div>
+  </div>
+</section>
+
+<section class="why">
+  <div class="wrap">
+    <h2>למה יוסי</h2>
+    <div class="whygrid">
+      <div><h3>מקצועיות</h3><p>ותק של מעל 30 שנים. כבר נתקלתי בכל סוגי התקלות.</p></div>
+      <div><h3>זמינות</h3><p>הגעה מהירה, בחירום גם תוך 30 דקות.</p></div>
+      <div><h3>אחריות</h3><p>3 שנות אחריות על העבודה ועל החלקים.</p></div>
+      <div><h3>מחיר הוגן</h3><p>המחיר נאמר לפני התיקון, בלי הפתעות.</p></div>
+      <div><h3>מוניטין</h3><p>אלפי לקוחות ודירוגים גבוהים באתרי חשמלאים.</p></div>
+    </div>
+  </div>
+</section>
+
+<section>
+  <div class="wrap license">
+    <div>
+      <h2>חשמלאי עם רישיון</h2>
+      <ul>
+        <li>בעל תעודת חשמלאי מוסמך</li>
+        <li>ותק של עשרות שנים בתחום</li>
+        <li>רשאי לבצע את כל עבודות החשמל, כולל תלת פאזי</li>
+      </ul>
+    </div>
+    <div class="warn">
+      <strong>אל תתפשרו על חשמלאי ללא רישיון</strong>
+      בקשו תמיד לראות את תעודת הרישיון של החשמלאי.
+    </div>
+  </div>
+</section>
+
+<section style="padding-top:0">
+  <div class="wrap">
+    <h2>לקוחות ממליצים</h2>
+    <div class="reviews">
+      <blockquote>
+        <p>היה מקצועי מאוד ונחמד. קמתי בשבת בלי חשמל. יוסי הגיע תוך פחות משעה ואיתר את התקלה במהירות ובאופן יסודי. מומלץ מאוד.</p>
+        <footer>ולריה, כפר סבא</footer>
+      </blockquote>
+      <blockquote>
+        <p>הזמנתי את יוסי כבר 4 פעמים. הוא תמיד בא רגוע, עם חיוך, ונותן פתרון מהיר ויעיל. הוא אומר את המחיר לפני התיקון, כך שאין הפתעות.</p>
+        <footer>אורלי, הרצליה</footer>
+      </blockquote>
+      <blockquote>
+        <p>הגעתי ליוסי דרך מידרג. הוא הגיע בהתראה קצרה, נתן שירות מקצועי, אדיב וסבלני, והמחיר מצוין.</p>
+        <footer>יואל, נתניה</footer>
+      </blockquote>
+    </div>
+  </div>
+</section>
+
+<section class="why" id="areas">
+  <div class="wrap">
+    <h2>אזורי שירות</h2>
+    <ul class="areas">
+      <li>כפר סבא</li><li>רעננה</li><li>הוד השרון</li><li>הרצליה</li><li>רמת השרון</li>
+      <li>נתניה</li><li>חדרה</li><li>קיסריה</li><li>תל מונד</li><li>אבן יהודה</li><li>כפר יונה</li>
+    </ul>
+    <p class="lead" style="margin-top:16px">וגם ביישובים הסמוכים.</p>
+  </div>
+</section>
+
+<section id="faq">
+  <div class="wrap">
+    <h2>שאלות נפוצות</h2>
+    <details>
+      <summary>מה זמן ההגעה?</summary>
+      <p>מהיר מאוד. ככל שהתקלה דחופה יותר אגיע מהר יותר, ובמקרי חירום גם תוך 30 דקות.</p>
+    </details>
+    <details>
+      <summary>האם יש אחריות על העבודה?</summary>
+      <p>כן. 3 שנות אחריות על העבודה ועל החלקים.</p>
+    </details>
+    <details>
+      <summary>איך המחירים כל כך טובים?</summary>
+      <p>אני בעל מקצוע מיומן ומהיר, ועבודה עם הרבה לקוחות מאפשרת לי לקנות חומרים במחירים טובים. את החיסכון אני מעביר אליכם.</p>
+    </details>
+    <details>
+      <summary>אילו עבודות חשמל אתה מבצע?</summary>
+      <p>את כל עבודות החשמל לבית: מאווררי תקרה, קצרים, פלאנג לדוד, לוחות חשמל, תלת פאזי ועוד.</p>
+    </details>
+    <details>
+      <summary>האם אפשר לקבל ייעוץ טלפוני?</summary>
+      <p>בהחלט. אשמח לענות על כל שאלה בנוגע למערכת החשמל שלכם.</p>
+    </details>
+  </div>
+</section>
+
+<section class="contact" id="contact">
+  <div class="wrap">
+    <h2>צרו קשר</h2>
+    <a class="big" href="tel:0505346012">050-5346012</a>
+    <p>דוא״ל: <a class="mail" href="mailto:electrician.0505346012@gmail.com">electrician.0505346012@gmail.com</a></p>
+    <a class="orig" href="https://www.yossy-electrician.com/" target="_blank" rel="noopener">לאתר המלא של יוסי החשמלאי</a>
+  </div>
+</section>
+
+<footer class="site">
+  <div class="wrap">© יוסי החשמלאי · כל הזכויות שמורות · <a href="https://www.yossy-electrician.com/" target="_blank" rel="noopener">yossy-electrician.com</a></div>
+</footer>
+
+<a class="sticky" href="tel:0505346012">חייגו עכשיו · 050-5346012</a>
+</body>
+</html>
